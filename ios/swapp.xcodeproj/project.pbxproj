@@ -11,7 +11,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		25197A718EB601DF19CE85E6 /* libPods-swapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2696D2CD1068056AB610C7 /* libPods-swapp.a */; };
+		3ED9762B13EA4EF988A1FB0C /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482CD351ED4D455D8A43F4DC /* DMSans-BoldItalic.ttf */; };
+		4647832A66A5430AAA993C32 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32B5FE7C40FE41BFA5593569 /* DMSans-Italic.ttf */; };
+		48C79F9C3E6A407AAA2B25D0 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B43B3FE388EF489FA19D93F0 /* DMSans-Medium.ttf */; };
+		5413846A939F93F516DE7F5F /* libPods-swapp-swappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B25E497237F75377D2C6A1 /* libPods-swapp-swappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AE04B8560C514EDB8B539626 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D531046DDA04F12B4C62875 /* DMSans-MediumItalic.ttf */; };
+		AE8E4A561C8E46BE9C70204A /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A99944CE81FE430EB8FCA7EE /* DMSans-Regular.ttf */; };
+		D44838E75E444A7B90D43C79 /* StarJediRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12AC0543392744D39B3E5A98 /* StarJediRounded.ttf */; };
+		D79040FD220E41BD8FB97E10 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3C01035DBB54D6D92B30C11 /* DMSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +37,26 @@
 		00E356EE1AD99517003FC87E /* swappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* swappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swappTests.m; sourceTree = "<group>"; };
+		0A7FE8A878A9F08593669937 /* Pods-swapp-swappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swapp-swappTests.debug.xcconfig"; path = "Target Support Files/Pods-swapp-swappTests/Pods-swapp-swappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12AC0543392744D39B3E5A98 /* StarJediRounded.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = StarJediRounded.ttf; path = ../assets/fonts/StarJediRounded.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* swapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = swapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = swapp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = swapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = swapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = swapp/main.m; sourceTree = "<group>"; };
+		1D531046DDA04F12B4C62875 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		31B25E497237F75377D2C6A1 /* libPods-swapp-swappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swapp-swappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B5FE7C40FE41BFA5593569 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		482CD351ED4D455D8A43F4DC /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		62960F52C4B97FD99CC966CB /* Pods-swapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swapp.debug.xcconfig"; path = "Target Support Files/Pods-swapp/Pods-swapp.debug.xcconfig"; sourceTree = "<group>"; };
+		7257081924487CE2C9F64104 /* Pods-swapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swapp.release.xcconfig"; path = "Target Support Files/Pods-swapp/Pods-swapp.release.xcconfig"; sourceTree = "<group>"; };
+		7B60BA820C9EF1DC5C30E5CF /* Pods-swapp-swappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swapp-swappTests.release.xcconfig"; path = "Target Support Files/Pods-swapp-swappTests/Pods-swapp-swappTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = swapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A99944CE81FE430EB8FCA7EE /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		B3C01035DBB54D6D92B30C11 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		B43B3FE388EF489FA19D93F0 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		EC2696D2CD1068056AB610C7 /* libPods-swapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5413846A939F93F516DE7F5F /* libPods-swapp-swappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25197A718EB601DF19CE85E6 /* libPods-swapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +114,24 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				EC2696D2CD1068056AB610C7 /* libPods-swapp.a */,
+				31B25E497237F75377D2C6A1 /* libPods-swapp-swappTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8058FF854B6D48928EF1A7FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3C01035DBB54D6D92B30C11 /* DMSans-Bold.ttf */,
+				482CD351ED4D455D8A43F4DC /* DMSans-BoldItalic.ttf */,
+				32B5FE7C40FE41BFA5593569 /* DMSans-Italic.ttf */,
+				B43B3FE388EF489FA19D93F0 /* DMSans-Medium.ttf */,
+				1D531046DDA04F12B4C62875 /* DMSans-MediumItalic.ttf */,
+				A99944CE81FE430EB8FCA7EE /* DMSans-Regular.ttf */,
+				12AC0543392744D39B3E5A98 /* StarJediRounded.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +149,8 @@
 				00E356EF1AD99517003FC87E /* swappTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8058FF854B6D48928EF1A7FA /* Resources */,
+				DBD88F3F04F9344B77C21677 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,6 +166,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DBD88F3F04F9344B77C21677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62960F52C4B97FD99CC966CB /* Pods-swapp.debug.xcconfig */,
+				7257081924487CE2C9F64104 /* Pods-swapp.release.xcconfig */,
+				0A7FE8A878A9F08593669937 /* Pods-swapp-swappTests.debug.xcconfig */,
+				7B60BA820C9EF1DC5C30E5CF /* Pods-swapp-swappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "swappTests" */;
 			buildPhases = (
+				C3031057E4E25064201A625E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				70BF7B41C0A34EC0A3E3BED9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +204,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "swapp" */;
 			buildPhases = (
+				25DC4A920F1980B9F2519CC1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				1D9B69A5A7ADEFB287170E4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +271,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D79040FD220E41BD8FB97E10 /* DMSans-Bold.ttf in Resources */,
+				3ED9762B13EA4EF988A1FB0C /* DMSans-BoldItalic.ttf in Resources */,
+				4647832A66A5430AAA993C32 /* DMSans-Italic.ttf in Resources */,
+				48C79F9C3E6A407AAA2B25D0 /* DMSans-Medium.ttf in Resources */,
+				AE04B8560C514EDB8B539626 /* DMSans-MediumItalic.ttf in Resources */,
+				AE8E4A561C8E46BE9C70204A /* DMSans-Regular.ttf in Resources */,
+				D44838E75E444A7B90D43C79 /* StarJediRounded.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +297,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1D9B69A5A7ADEFB287170E4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swapp/Pods-swapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swapp/Pods-swapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swapp/Pods-swapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25DC4A920F1980B9F2519CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BF7B41C0A34EC0A3E3BED9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swapp-swappTests/Pods-swapp-swappTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swapp-swappTests/Pods-swapp-swappTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swapp-swappTests/Pods-swapp-swappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3031057E4E25064201A625E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swapp-swappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -286,6 +428,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7FE8A878A9F08593669937 /* Pods-swapp-swappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +455,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B60BA820C9EF1DC5C30E5CF /* Pods-swapp-swappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +479,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62960F52C4B97FD99CC966CB /* Pods-swapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +505,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7257081924487CE2C9F64104 /* Pods-swapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

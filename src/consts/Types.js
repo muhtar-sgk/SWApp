@@ -1,0 +1,9 @@
+const Types = {
+  PEOPLE: 'PEOPLE',
+  DETAIL: 'DETAIL',
+  RESET_DETAIL: 'RESET_DETAIL',
+  SET_LOADING: 'SET_LOADING',
+  SET_ERROR: 'SET_ERROR'
+}
+
+export default Types

@@ -1,0 +1,14 @@
+com/swapp/BuildConfig.java
+ com.swapp.BuildConfig
+com/swapp/MainApplication.java
+ com.swapp.MainApplication
+ com.swapp.MainApplication$1
+com/swapp/ReactNativeFlipper.java
+ com.swapp.ReactNativeFlipper
+ com.swapp.ReactNativeFlipper$1
+ com.swapp.ReactNativeFlipper$2
+ com.swapp.ReactNativeFlipper$2$1
+com/swapp/MainActivity.java
+ com.swapp.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
