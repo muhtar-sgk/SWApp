@@ -5,6 +5,7 @@ import SubItem from './SubItem'
 import Header from './Header'
 import DetailItem from './DetailItem'
 import Button from './Button'
+import ListItem from './ListItem'
 
 export {
   Gap,
@@ -13,5 +14,6 @@ export {
   SubItem,
   Header,
   DetailItem,
-  Button
+  Button,
+  ListItem
 }

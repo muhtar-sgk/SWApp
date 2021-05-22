@@ -1,12 +1,11 @@
-import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { ScrollView, StyleSheet, Text, View, SafeAreaView } from 'react-native'
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
-import { Button, DetailItem, Header } from '../../components'
-import Gap from '../../components/Gap'
+import { Button, DetailItem, Header, ListItem, Gap } from '../../components'
 import ModalDetail from '../../components/ModalDetail'
 import { Colors, Fonts } from '../../consts'
 import { getDetail } from '../../redux/actions'
+import { fetchData } from '../../utils/Fetch'
 
 const Detail = ({ route, navigation }) => {
   const [films, setFilms] = useState([])
@@ -41,24 +40,11 @@ const Detail = ({ route, navigation }) => {
     dispatch(getDetail(route.params.id))
   }, [])
 
-  const fetchData = async (urls) => {
-    try {
-      const response = await Promise.all(
-        urls.map(url => axios.get(url).then(res => res.data))
-      )
-      return response;
-    } catch (error) {
-      console.log('error', error)
-    }
-  }
-
   const renderFilms = () => {
     if (films !== undefined) {
       if (films.length !== 0) {
         return films.map(item =>
-          <View style={styles.subContainer}>
-            <Text style={styles.textItem}>{item.title}</Text>
-          </View>
+          <ListItem title={item.title} />
         )
       } else {
         return (
@@ -72,9 +58,8 @@ const Detail = ({ route, navigation }) => {
     if (species !== undefined) {
       if (species.length !== 0) {
         return species.map(item =>
-          <View style={styles.subContainer}>
-            <Text style={styles.textItem}>{item.name}</Text>
-          </View>
+          <ListItem title={item.name} />
+
         )
       } else {
         return (
@@ -88,9 +73,8 @@ const Detail = ({ route, navigation }) => {
     if (vehicles !== undefined) {
       if (vehicles.length !== 0) {
         return vehicles.map(item =>
-          <View style={styles.subContainer}>
-            <Text style={styles.textItem}>{item.name}</Text>
-          </View>
+          <ListItem title={item.name} />
+
         )
       } else {
         return (
@@ -104,9 +88,7 @@ const Detail = ({ route, navigation }) => {
     if (starships !== undefined) {
       if (starships.length !== 0) {
         return starships.map(item =>
-          <View style={styles.subContainer}>
-            <Text style={styles.textItem}>{item.name}</Text>
-          </View>
+          <ListItem title={item.name} />
         )
       } else {
         return (

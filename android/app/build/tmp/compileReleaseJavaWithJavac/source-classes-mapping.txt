@@ -1,0 +1,9 @@
+com/swapp/BuildConfig.java
+ com.swapp.BuildConfig
+com/swapp/MainApplication.java
+ com.swapp.MainApplication
+ com.swapp.MainApplication$1
+com/swapp/MainActivity.java
+ com.swapp.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

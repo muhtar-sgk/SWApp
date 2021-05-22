@@ -65,6 +65,7 @@ const People = ({ navigation }) => {
               />
             }
             onEndReachedThreshold={0.4}
+            keyExtractor={(item, index) => index.toString()}
           />
         </View>
       </SafeAreaView >

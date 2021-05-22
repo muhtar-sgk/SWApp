@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
-import { Animated, Image, ImageBackground, StatusBar, StyleSheet, Text, View } from 'react-native'
-import { Fonts } from '../../consts'
-import { useSplash } from '../../hooks'
+import { Animated, Image, StatusBar, StyleSheet, View } from 'react-native'
+import icStarWars from '../../images/ic_starwars.png'
 
 const Splash = ({ navigation }) => {
   const fadeAnim = new Animated.Value(0)
@@ -27,12 +26,16 @@ const Splash = ({ navigation }) => {
   }
 
   return (
-    <Animated.View style={{ flex: 1, opacity: fadeAnim }}>
+    <Animated.View style={[styles.animated, { opacity: fadeAnim }]}>
       <View style={styles.container}>
-        <StatusBar backgroundColor='transparent' barStyle='default' translucent />
+        <StatusBar
+          backgroundColor='transparent'
+          barStyle='default'
+          translucent
+        />
         <Image
-          source={require('../../images/ic_starwars.png')}
-          style={{ height: 200, width: 200 }}
+          source={icStarWars}
+          style={styles.icon}
         />
       </View>
     </Animated.View>
@@ -40,11 +43,18 @@ const Splash = ({ navigation }) => {
 }
 
 const styles = StyleSheet.create({
+  animated: {
+    flex: 1
+  },
   container: {
     flex: 1,
     backgroundColor: 'black',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  icon: {
+    height: 200,
+    width: 200
   }
 })
 
