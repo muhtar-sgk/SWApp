@@ -1,1 +1,1 @@
-# SWApp - Technical Test Geekseat
+# SWApp - React Native
