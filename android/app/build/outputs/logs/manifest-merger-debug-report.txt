@@ -14,7 +14,7 @@ MERGED from [:react-native-screens] /Users/muhtar/Public/ReactNative/test/SWApp/
 MERGED from [:react-native-reanimated] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native:0.64.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/8d2282471b47ce9a43adfd1155d78528/jetified-react-native-0.64.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/84c6a932a42f35f9b796c5d67e6eb742/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -93,8 +93,8 @@ application
 ADDED from /Users/muhtar/Public/ReactNative/test/SWApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /Users/muhtar/Public/ReactNative/test/SWApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
 MERGED from /Users/muhtar/Public/ReactNative/test/SWApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.64.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/8d2282471b47ce9a43adfd1155d78528/jetified-react-native-0.64.1/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.64.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/8d2282471b47ce9a43adfd1155d78528/jetified-react-native-0.64.1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -173,8 +173,8 @@ MERGED from [:react-native-gesture-handler] /Users/muhtar/Public/ReactNative/tes
 MERGED from [:react-native-gesture-handler] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-safe-area-context] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/muhtar/Public/ReactNative/test/SWApp/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.64.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/8d2282471b47ce9a43adfd1155d78528/jetified-react-native-0.64.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.64.1] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/8d2282471b47ce9a43adfd1155d78528/jetified-react-native-0.64.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.4] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/261438c368c0dce4ef15945058b1a722/jetified-react-native-0.63.4/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /Users/muhtar/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41

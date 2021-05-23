@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native'
-import Colors from '../consts/Colors'
-import Fonts from '../consts/Fonts'
+import { Colors, Fonts } from '../consts'
 
 const Header = ({ title, onPress }) => {
   return (

@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react'
-import { FlatList, Image, Platform, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { FlatList, Image, SafeAreaView, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
 import { PeopleItem } from '../../components'
 import { Colors, Fonts } from '../../consts'
 import { getPeople } from '../../redux/actions'
+import icBack from '../../images/ic_back.png'
 
 let page = 1
 
@@ -30,14 +31,14 @@ const People = ({ navigation }) => {
       <SafeAreaView style={styles.safeAreaTop} />
       <SafeAreaView style={styles.container}>
         <View style={styles.container}>
-          <StatusBar backgroundColor={Platform.OS === 'android' ? 'black' : Colors.WHITE} barStyle='dark-content' translucent />
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+          <StatusBar backgroundColor={Colors.PRIMARY} barStyle='dark-content' translucent />
+          <View style={styles.containerHeader}>
             <TouchableOpacity
               disabled={people.previous === null ? true : false}
               onPress={onPressPrev}>
               <Image
-                source={require('../../images/ic_back.png')}
-                style={{ width: 22, height: 22, tintColor: people.previous === null ? Colors.BLACK : Colors.PRIMARY, marginTop: 16 }}
+                source={icBack}
+                style={[styles.arrow, { tintColor: people.previous === null ? Colors.BLACK : Colors.PRIMARY }]}
               />
             </TouchableOpacity>
             <Text style={styles.title}>Starwars - People</Text>
@@ -45,8 +46,8 @@ const People = ({ navigation }) => {
               disabled={people.next === null ? true : false}
               onPress={onPressNext}>
               <Image
-                source={require('../../images/ic_back.png')}
-                style={{ width: 22, height: 22, tintColor: people.next === null ? Colors.BLACK : Colors.PRIMARY, marginTop: 16, transform: [{ rotate: "180deg" }] }}
+                source={icBack}
+                style={[styles.arrow, { tintColor: people.previous === null ? Colors.BLACK : Colors.PRIMARY }]}
               />
             </TouchableOpacity>
           </View>
@@ -87,6 +88,16 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: Fonts.STARWARS,
     textAlign: 'center',
+    marginTop: 16
+  },
+  arrow: {
+    width: 22,
+    height: 22,
+    marginTop: 16
+  },
+  containerHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     marginTop: 16
   }
 })

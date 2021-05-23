@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native'
 import { Colors, Fonts } from '../consts'
 import Modal from 'react-native-modal'
 import { Gap } from '.'
+import icClose from '../images/ic_close.png'
 
 const ModalDetail = ({ isVisible, onBackdropPress, onPress, children, title }) => {
   return (
@@ -17,7 +18,7 @@ const ModalDetail = ({ isVisible, onBackdropPress, onPress, children, title }) =
         <View style={styles.containerModalTitle}>
           <Text style={styles.modalTitle}>{title}</Text>
           <TouchableOpacity onPress={onPress} activeOpacity={0.7}>
-            <Image source={require('../images/ic_close.png')} style={styles.iconClose} />
+            <Image source={icClose} style={styles.iconClose} />
           </TouchableOpacity>
         </View>
         <View style={styles.lineModal} />

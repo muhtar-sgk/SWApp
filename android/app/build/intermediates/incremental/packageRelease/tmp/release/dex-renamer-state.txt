@@ -1,4 +1,4 @@
-#Sat May 22 19:14:41 WIB 2021
+#Sat May 22 20:10:44 WIB 2021
 base.0=/Users/muhtar/Public/ReactNative/test/SWApp/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
