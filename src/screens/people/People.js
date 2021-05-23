@@ -47,7 +47,11 @@ const People = ({ navigation }) => {
               onPress={onPressNext}>
               <Image
                 source={icBack}
-                style={[styles.arrow, { tintColor: people.previous === null ? Colors.BLACK : Colors.PRIMARY }]}
+                style={[styles.arrow,
+                {
+                  tintColor: people.next === null ? Colors.BLACK : Colors.PRIMARY,
+                  transform: [{ rotate: '180deg' }]
+                }]}
               />
             </TouchableOpacity>
           </View>
@@ -93,12 +97,13 @@ const styles = StyleSheet.create({
   arrow: {
     width: 22,
     height: 22,
-    marginTop: 16
+    marginTop: 16,
+    marginHorizontal: 8
   },
   containerHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 16
+    marginTop: 20
   }
 })
 

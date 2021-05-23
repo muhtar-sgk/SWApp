@@ -73,7 +73,7 @@ const Detail = ({ route, navigation }) => {
     if (vehicles !== undefined) {
       if (vehicles.length !== 0) {
         return vehicles.map(item =>
-          <ListItem title={item.name} />
+          <ListItem key={item.name} title={item.name} />
 
         )
       } else {
@@ -155,6 +155,7 @@ const Detail = ({ route, navigation }) => {
             onPress={showHideStarships}
             title='Starships'
           />
+          <Gap height={16} />
           <Header title='Detail People' onPress={onPressBack} />
           <ScrollView style={styles.container}>
             <Text style={styles.title}>{detail.name}</Text>
